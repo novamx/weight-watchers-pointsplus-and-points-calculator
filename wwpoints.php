@@ -54,12 +54,12 @@ function add_jquery_to_the_wwpoints_widget() {
 }
 
 function add_custom_javascript_to_the_wwpoints_widget() {
-	wp_enqueue_script('wwpoints', get_bloginfo('wpurl')."/wp-content/plugins/wwpoints/wwpoints.js");
+	wp_enqueue_script('wwpoints', get_bloginfo('wpurl')."/wp-content/plugins/weight-watchers-pointsplus-and-points-calculator/wwpoints.js");
 }
 
 function add_custom_css_to_the_wwpoints_widget() {
 	echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"".get_bloginfo("wpurl")
-		."/wp-content/plugins/wwpoints/wwpoints.css\" />\n";
+		."/wp-content/plugins/weight-watchers-pointsplus-and-points-calculator/wwpoints.css\" />\n";
 }
 
 add_action("init","add_jquery_to_the_wwpoints_widget");
