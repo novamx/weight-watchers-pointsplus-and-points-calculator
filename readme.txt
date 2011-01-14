@@ -1,7 +1,7 @@
 === Weight Watchers Points & PointsPlus Calculator ===
 Contributors: figaronymous
 Donate link: http://www.zekemoore.com
-Tags: calculators,widgets,nutrition,diet,weight-watchers,food
+Tags: calculators,widgets,nutrition,diet,weight-watchers,food,health
 Requires at least: 2.0.0
 Tested up to: 3.0
 Stable tag: trunk
